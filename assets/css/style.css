@@ -110,6 +110,7 @@ nav ul .btn-nav a:hover {
 /* ========= Hero =========  */
 .container-hero {
   padding: 3.5rem 0;
+  background-color: var(--bluenavy);
 }
 
 .hero {
@@ -304,9 +305,10 @@ main {
 
 .card-service .text-card-service p {
   font-family: var(--para);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 0.8rem;
   text-align: justify;
+  color: var(--bluenavy);
 }
 
 .card-service .text-card-service .button {
@@ -786,11 +788,11 @@ footer {
     display: block;
   }
 
-  header .hero {
+  main .hero {
     text-align: center;
   }
 
-  header .hero .text-hero,
+  main .hero .text-hero,
   .container-hero .hero .image-hero img {
     width: 80%;
   }
