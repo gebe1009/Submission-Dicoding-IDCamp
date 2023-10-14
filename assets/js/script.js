@@ -20,6 +20,8 @@ buttonBar.addEventListener("click", () => {
   buttonBar.classList.toggle("rotate");
 });
 
+// Ketika DIscroll Menampilkan Shadow
+
 window.onscroll = () => {
   const scrollOn = window.pageYOffset;
   if (scrollOn > 10) {
